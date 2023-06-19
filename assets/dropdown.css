@@ -1,0 +1,48 @@
+/* input box */
+.Select-control {
+    background-color: #1e2130 !important;
+    padding :2%;
+    font-size: 20px;
+}
+
+.Select.is-focused > .Select-control {
+    background-color: #1e2130;
+}
+
+#school-input {
+    color: white;
+}
+
+
+/* changes the text color of input box */
+.Select-value-label {
+    color: white !important;
+}
+
+/*Border of the input box*/
+.Select--single > .Select-control .Select-value, .Select-placeholder {
+    border: 1px solid '#d6eaf8';
+    border-radius: 4px;
+}
+
+/* dropdown menu options */
+.VirtualizedSelectOption {
+    background-color: #1e2130;
+    color: white;
+ }
+
+ 
+/* dropdown menu hover effect */
+.VirtualizedSelectFocusedOption {
+    background-color: #5d6d7e;
+    opacity: .7;
+}
+
+/* border on focus - default is blue
+ * shadow box around input box.  default is blue
+ */
+.Select.is-focused:not(.is-open) > .Select-control {
+    background-color: #1e2130;
+    border-color: #d6eaf8; 
+    box-shadow: none;
+}
