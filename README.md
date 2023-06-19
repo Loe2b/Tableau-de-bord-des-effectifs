@@ -28,7 +28,7 @@ python3 -m virtualenv env
 Sur système UNIX :
 
 ```
-soure venv/bin/activate
+source venv/bin/activate
 ```
 
 Sur Windows :
