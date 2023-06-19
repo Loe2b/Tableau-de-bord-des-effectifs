@@ -23,17 +23,18 @@ Nous vous conseillons de créer un environnement python 3 et d'installer les dé
 ```
 git clone https://github.com/Loe2b/Tableau-de-bord-des-effectifs.git
 cd Tableau-de-bord-des-effectifs/
-python3 -m virtualenv env
 ```
 Sur système UNIX :
 
 ```
+python3 -m virtualenv venv
 source venv/bin/activate
 ```
 
 Sur Windows :
 
 ```
+python3 -m venv venv
 venv/Scripts/activate
 ```
 
@@ -45,7 +46,7 @@ pip install -r requirements.txt
 
 ## Comment utiliser l'application
 
-Vous pouvez maintenant lancer l'application grace à la commande :
+Une fois dans l'environnement, vous pouvez maintenant lancer l'application grace à la commande :
 
 ```
 python app.py
