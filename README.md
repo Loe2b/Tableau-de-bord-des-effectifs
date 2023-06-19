@@ -21,7 +21,7 @@
 Nous vous conseillons de créer un environnement python 3 et d'installer les dépendances nécessaires. Dans un terminal de commande lancer les commandes suivantes :
 
 ```
-https://github.com/Loe2b/Tableau-de-bord-des-effectifs.git
+git clone https://github.com/Loe2b/Tableau-de-bord-des-effectifs.git
 cd Tableau-de-bord-des-effectifs/
 python3 -m virtualenv env
 ```
