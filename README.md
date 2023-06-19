@@ -7,7 +7,9 @@ ATTENTION !!! Les données utilisées sont fictives et ne représentent rien de 
 
 ## Screenshots
 
-![initial](img/Screencast.mp4)
+![initial](img/Screenshot1.png)
+![initial](img/Screenshot2.png)
+![initial](img/Screenshot3.png)
 
 ## Ressources
 Dash - framework Python de développement d'application web pour la visualisation de données
